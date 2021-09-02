@@ -49,7 +49,8 @@ export function Cartela({ arrayNumeros = makeCartela() }) {
     const [arrayCartela, setArrayCartela] = useState(
         fillArrayCartela(arrayNumeros),
     );
-    const [numerosSorteados, setNumerosSorteado] = useState(fillSorteados);
+    // const [numerosSorteados, setNumerosSorteado] = useState(fillSorteados);
+    const [numerosSorteados] = useState(fillSorteados);
 
     function onClickCel(index) {
         let newArrayCartela = [...arrayCartela];
