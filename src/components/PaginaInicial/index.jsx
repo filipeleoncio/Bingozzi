@@ -10,9 +10,6 @@ export function PaginaInicial() {
         <Grid container className={classes.root}>
             <Grid item xs={2} />
             <Grid item xs={8}>
-                <Typography className={classes.pagePreTitle}>
-                    Welcome to
-                </Typography>
                 <Typography className={classes.pageTitle}>BINGOZZI</Typography>
                 <Cartela />
             </Grid>
